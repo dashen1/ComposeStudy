@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity() {
                         .fillMaxSize()
                         .padding(bottom = LocalWindowInsets.current.navigationBars.bottom.transformDp)
                 ) {
-                    N
+
                 }
             }
         }
@@ -51,8 +51,8 @@ fun Greeting(name: String) {
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
-    Compose_Music_MVVMTheme {
-        Greeting("Android")
-    }
+//    Compose_Music_MVVMTheme {
+//        Greeting("Android")
+//    }
 }
 
